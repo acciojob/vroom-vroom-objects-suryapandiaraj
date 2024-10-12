@@ -10,11 +10,11 @@ function SportsCar(make, model, topSpeed) {
 }
 
 function getMakeModel(){
-	return `${make} ${model}`
+	return `${this.make} ${this.model}`
 }
 
 function getTopSpeed(){
-	return `${topSpeed}`
+	return this.topSpeed
 }
 
 // Do not change the code below
